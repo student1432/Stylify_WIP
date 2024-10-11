@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>AI COLOUR ANALYSIS
+        </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    
+      <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+      
+      <link rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <h1 id="header3">Clothing Size Predictor</h1>
+            <form id="sizeForm">
+                <label for="height">Height (in cm):</label>
+                <input type="number" id="height" name="height" required>
+    
+                <label for="weight">Weight (in kg):</label>
+                <input type="number" id="weight" name="weight" required>
+    
+                <button type="submit">Predict Size</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    
+        <script src="script1.js"></script>
+    </body>
+</html>
