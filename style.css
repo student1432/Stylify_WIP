@@ -89,9 +89,10 @@
 }
 
 #main {
-    margin-left: 250px;
-    width: 300px;
-    height: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 310px;
+    height: 110px;
     border-radius: 10px;
     background-color: #f3c2b9b4;
     color: rgb(0, 0, 0);
@@ -99,6 +100,8 @@
     font-size: 40px;
     border: 2px solid #126cb5;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 .flex-container{
     display: flex;
@@ -134,4 +137,13 @@
 .modal-body {
     font-family: 'Nixie One', cursive;
     font-size: 300%;
+}
+.info_2{
+    text-align: center;
+}
+#transfer{
+    text-align: center;
+    font-family: 'Nixie One', cursive;
+    font-size: 200%;
+    text-decoration: underline;
 }

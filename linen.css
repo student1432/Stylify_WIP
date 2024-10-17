@@ -1,0 +1,52 @@
+#title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 700%;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+#sub_title{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 350%;
+    font-weight: lighter;
+}
+#subsection{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-right: 10%;
+}
+#subpage{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 3%;
+    width: 175%;
+}
+.vertical-line {
+    border-left: 1px solid black;
+    height: 400px;
+    margin-right: 5%;
+}
+body{
+    background-image: url('cool-background.png');
+}
+#span{
+padding: 2%;
+display: flex;
+}
+#line{
+    width: 3cm;
+    color: black;
+}
+#circles{
+    border-radius: 20%;
+    width: 40%;
+    margin-left: 35%;
+    background-color: #d8dfed7d;
+}
+#sbs{
+    align-items:center;
+    display: flex;
+}
+   
